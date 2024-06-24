@@ -1,0 +1,407 @@
+/* Developer CSS */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('../fonts/Poppins-Thin.ttf');
+}
+
+.padding0 {
+    padding: 0px !important;
+}
+
+.icon-bold {
+
+    font-family: Poppins;
+    font-weight: bold !important;
+}
+
+.col-icon {
+    padding-left: 50px !important;
+    position: relative;
+    background-image: url(../images/callInputIcon.png);
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+    background-position: calc(5% - 0rem);
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.login-font {
+    font-family: Poppins;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input {
+    padding-left: 30px;
+    /* Adjust as needed */
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    /* Adjust as needed */
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 80px;
+    /* Adjust the value to your desired border-radius */
+}
+
+.slick-dots li.slick-active button:before {
+   
+    color: #0085ff ;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #369FFF ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.onboarding-info a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #369FFF !important;
+    display: block;
+    cursor: pointer;
+}
+.request-otp-disable {
+    background: #728497;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 14px 0;
+    border-radius: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.request-otp-disable:hover {
+    background: #728497;
+}
+
+.future-step-1-changed {
+    background: url(../images/completedStatus.png) no-repeat center top, #001e3a;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.activity-text-col {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.bradercrums-width {
+    width: 50vh;
+}
+
+/* Add your other styles */
+.selected-option {
+    /* Define your selected styles */
+    background-color: #f0f0f0; /* Change this to the color you want */
+    border-color: #ccc; /* Change this to the color you want */
+  }
+  
+  .qustion-row .ans-col:hover {
+    border: 2px solid #2B95F6;
+    background-color: #8bc4fb;
+    padding: 5px 15px 5px 5px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    display: inline-flex;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.qustion-row .selected-answer{
+    border: 2px solid #8bc4fb;
+    background-color: #8bc4fb;
+    padding: 5px 15px 5px 5px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    display: inline-flex;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.active-svg-draggable {
+    background-image: url(../images/active.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+.qustion-row.active-svg-draggable:hover {
+    background-image: url(../images/inactive.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+.question-number {
+    display: flex;
+    position: relative;
+    left: 0px !important;
+}
+
+.question-number h2 {
+    position: relative;
+    left: 0px !important;
+}
+.quiz-main {
+    background-color: #ebf5ff;
+    min-height: 100vh !important;
+    padding: 50px;
+    position: relative;
+}
+/* .popup-user {
+    right: 50px;
+    top: 130px;
+} */
+.CareerOptions-Tabs-type2 .tab-header ul li:last-of-type a {
+    font-weight: 400 !important;
+    
+}
+
+
+/* .middle-quiz-sec {
+    max-width: 850px;
+    margin: 0 auto;
+    min-height: 71.7vh !important;
+    display: flex;
+    align-items: center;
+    position: relative;
+} */
+/* .qustion-row .selected-answer .ans-list {
+    background-color: #2B95F6;
+    color: #ffffff;
+    width: 40px;
+    min-width: 40px;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+} */
+
+.add-explore-report-ready{
+    overflow: visible !important;
+}
+
+.v2-add-CareerOptions .card-header-tabs .nav-link {
+    font-weight: 500;
+}
+
+.v2-add-CareerOptions .tab-header ul li:last-of-type a {
+    font-weight: 500 !important;
+}
+
+.v2-tab-img{
+    width: 85%;
+    height: 85%;
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1933px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        overflow: hidden;
+    }
+
+    .main-dashboard {
+        max-width: 1550px !important;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .icon-bold-lock {
+
+        font-size: 30px !important;
+        padding-top: 3px !important;
+    }
+
+    .bradercrums-width {
+        width: 28vh;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1933px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        overflow: hidden;
+    }
+
+    .bradercrums-width {
+        width: 43vh;
+    }
+
+    .slick-dots {
+        position: relative;
+        bottom: 0px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+       
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .right-content {
+        width: 100%;
+        background-color: #ffffff;
+        padding: 15px 15px 20px 15px !important;
+        margin-top: 5px;
+    }
+
+    .activity-text-col {
+        display: initial;
+        flex-direction: initial;
+        align-content: initial;
+        justify-content: initial;
+    }
+
+    .bradercrums-width {
+        width: 40vh;
+    }
+
+    .v2-add-CareerOptions .tab-header ul li {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .v2-add-CareerOptions .tab-header ul li:last-of-type {
+        padding: 0;
+    }
+
+    .v2-add-CareerOptions ul.nav.card-header-tabs {
+        display: flex;
+        width: 100%;
+        flex-flow: nowrap;
+        overflow: auto;
+        align-items: flex-end;
+    }
+
+    .v2-tab-img{
+        width: 55%;
+        object-fit: contain;
+    }
+
+    .CareerOptions-Tabs-type2 .cardTab-Heading {
+        margin-bottom: 20px;
+    }
+    
+    .CareerOptions-Tabs-type2 .cardTab-Heading span {
+        font-size: 32px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 42px;
+    }
+
+}
+
+/* YourComponent.css */
+.custom-slide {
+    margin-right: 0%; /* Adjust the margin as needed */
+    margin-left: 5%;
+  }
+  
+
+  .notification-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height based on your layout needs */
+  }
+  
+  .no-notification-message {
+    text-align: center;
+    font-size: larger;
+  }
+  
+
+  .modal-content {
+    background-color: transparent !important;
+}
+
+
+#custom-modal-content {
+    background-color: #ecf5ff !important; /* Override background color */
+}

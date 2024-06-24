@@ -1,0 +1,85 @@
+{
+  "name": "acadspace",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.16",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.4.2",
+    "mixpanel-browser": "^2.49.0",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-dom": "^18.2.0",
+    "react-drag-and-drop": "^3.0.0",
+    "react-drag-reorder": "^1.2.0",
+    "react-draggable": "^4.4.6",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.2.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-microsoft-clarity": "^1.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.30.0",
+    "react-sortable-hoc": "^2.0.0",
+    "reactstrap": "^9.2.1",
+    "redux": "^4.2.1",
+    "redux-form": "^8.3.10",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.2.3",
+    "select2": "^4.1.0-rc.0",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "proxy": "http://testenv.acadspace.org",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.11.1",
+    "node-sass": "^7.0.3",
+    "postcss": "^8.4.38",
+    "postcss-import": "^16.1.0",
+    "postcss-nesting": "^12.1.2",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.4.3"
+  },
+  "overrides": {
+    "react-sortable-hoc": {
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+    }
+  }
+}
